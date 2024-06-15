@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body {
+    background-image: url(FR-en-20240311-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+header {
+    display: flex;
+    
+}
+
+.Link_head {
+    color:rgb(229, 9, 20) ;
+    font-family: "Bebas Neue", sans-serif;
+    text-decoration: none;
+    font-size: 4em;
+    margin-left: 30px;
+    letter-spacing: 2px;
+}
+
+main {
+    color: white;
+}
+
+.formulaire  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+    
+    
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+
+.footer {
+    background-color: rgba(0 0 0/80%);
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    margin-top: 50rem;
+    position: absolute;
+    bottom: 0;
+    padding: 60px 10%;
+    width: 100%;
+
+    
+
+}
+
+.link_footer {
+   display: flex;
+   flex-direction: row;
+   
+}
+
+.pied {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.link_footer a {
+    color: #757575;
+    margin-right: 20px;
+}
+
+
+.footer_lang select {
+    background-color: transparent;
+    color: #757575;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.phone {
+    width: 20rem;
+    height: 3rem;
+    padding: 20px;
+}
+
+.password {
+    width: 20rem;
+    height: 3rem;
+    padding: 20px;
+}
+
+.input-box1 {
+    margin-bottom: 40px;
+}
+
+.input-box2 {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: rgb(229, 9, 20);
+    width: 20rem;
+    height: 3rem;
+    border: black;
+}
+
+.button {
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-family: "Manrope", sans-serif;
+}
+
+.Plus-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.el1 {
+    margin-top: 5px;
+    align-self: center;
+    font-size: 1.2em;
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+.el2 {
+    margin-top: 100px;
+    color: rgb(255,255,255);
+    font-size: 1em;
+    
+}
+
+.el3 {
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+.el4 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.border {
+    border: 1 solid black;
+    background-color: rgba(0 0 0/80%);
+    padding: 50px;
+    padding-bottom: 70px;
+    height: 42em;
+}
+
+.text-style {
+   color: #757575;
+
+}
+
+.text-style1 {
+    color: #0071eb;
+    text-decoration: none;
+}
+
+.text-style2 {
+    color: rgb(255,255,255);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.text-style3 {
+    color: rgba(255,255,255,0.7);
+
+}
+
+
+
+a:hover {
+    text-decoration: underline;
+}
+
